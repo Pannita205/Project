@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
               Colors.white,
-              Colors.yellow.shade200,
+              Colors.orangeAccent.shade400,
 
             ],
           ),

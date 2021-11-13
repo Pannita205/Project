@@ -64,9 +64,9 @@ class _SecondYearState extends State<SecondYear> {
         name: 'การสื่อสารข้อมูลและเครือข่ายคอมพิวเตอร์',
         credit: 4,
         condition
-        :'- ทักษะการเขียนโปรแกรมคอมพิวเตอร์ 1\n- พื้นฐานคอมพิวเตอร์และวิทยาการสารสนเทศ'),
+        :'- ทักษะการเขียนโปรแกรมคอมพิวเตอร์ 2\n- พื้นฐานคอมพิวเตอร์และวิทยาการสารสนเทศ'),
     SubjectItem22(
-        id: '520 221', name: 'ระบบฐานข้อมูล', credit: 4,condition: '- ทักษะการเขียนโปรแกรมคอมพิวเตอร์ 1'),
+        id: '520 221', name: 'ระบบฐานข้อมูล', credit: 4,condition: '- ทักษะการเขียนโปรแกรมคอมพิวเตอร์ 2'),
   ];
 
   @override
@@ -102,8 +102,7 @@ class _SecondYearState extends State<SecondYear> {
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
               Colors.white,
-              Colors.yellow.shade200,
-
+              Colors.orangeAccent.shade400,
             ],
           ),
         ),

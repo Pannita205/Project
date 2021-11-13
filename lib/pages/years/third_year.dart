@@ -119,7 +119,7 @@ class _ThirdYearState extends State<ThirdYear> {
             // ไล่เฉดจากสีแดงไปสีน้ำเงิน
             colors: [
               Colors.white,
-              Colors.yellow.shade200,
+              Colors.orangeAccent.shade400,
             ],
           ),
         ),
