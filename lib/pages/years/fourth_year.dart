@@ -34,7 +34,7 @@ class _FourthYearState extends State<FourthYear> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('YEAR 4'),
+        title: const Text('นักศึกษาปีที่ 4'),
         centerTitle: true,
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -198,7 +198,7 @@ class _FourthYearState extends State<FourthYear> {
                     Icons.error,
                   ),
                   SizedBox(width: 6.0),
-                  Text('เงื่อนไขของวิชา'),
+                  Text('เงื่อนไขของวิชา: '),
                 ],
               ),
               Text(
@@ -207,16 +207,6 @@ class _FourthYearState extends State<FourthYear> {
               ),
             ],
           ),
-          actions: [
-            // ปุ่ม OK ใน dialog
-            TextButton(
-              child: const Text('OK'),
-              onPressed: () {
-                // ปิด dialog
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
         );
       },
     );

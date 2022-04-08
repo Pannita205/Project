@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ตารางเรียน'),
+        title: const Text('ตารางหลักสูตร'),
         centerTitle: true,
       ),
       body: Container(
@@ -51,10 +51,10 @@ class _HomePageState extends State<HomePage> {
                     'มหาวิทยาลัยศิลปากร',
                     style: TextStyle(fontSize: 18.0, color: Colors.teal),
                   ),
-                  const SizedBox(height: 6.0,),
+                  const SizedBox(height: 4.0,),
                   const Text(
                     'คณะวิทยาศาสตร์ ภาควิชาวิทยาการคอมพิวเตอร์',
-                    style: TextStyle(fontSize: 16.0, color: Colors.black),
+                    style: TextStyle(fontSize: 16.0, color: Colors.orange),
                   ),
                 ],
               ),
@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                     child: Padding(
                       padding: EdgeInsets.all(16.0),
                       child: Text(
-                        'เลือกชั้นปี',
+                        'เลือกชั้นปีการศึกษา',
                         style: TextStyle(fontSize: 28.0),
                       ),
                     ),
@@ -119,7 +119,7 @@ class _HomePageState extends State<HomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'YEAR ${year.toString()}',
+                'นักศึกษาปีที่ ${year.toString()}',
                 style: const TextStyle(fontSize: 24.0, color: Colors.white),
               ),
             ],

@@ -68,7 +68,7 @@ class _FirstYearState extends State<FirstYear> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('YEAR 1'),
+        title: const Text('นักศึกษาปีที่ 1'),
         centerTitle: true,
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -231,22 +231,12 @@ class _FirstYearState extends State<FirstYear> {
                     Icons.error,
                   ),
                   SizedBox(width: 6.0),
-                  Text('เงื่อนไขของวิชา'),
+                  Text('เงื่อนไขของวิชา: '),
                 ],
               ),
               Text('$msg',textAlign: TextAlign.start,),
             ],
           ),
-          actions: [
-            // ปุ่ม OK ใน dialog
-            TextButton(
-              child: const Text('OK'),
-              onPressed: () {
-                // ปิด dialog
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
         );
       },
     );

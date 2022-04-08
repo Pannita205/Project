@@ -90,7 +90,7 @@ class _ThirdYearState extends State<ThirdYear> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('YEAR 3'),
+        title: const Text('นักศึกษาปีที่ 3'),
         centerTitle: true,
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -264,16 +264,6 @@ class _ThirdYearState extends State<ThirdYear> {
               ),
             ],
           ),
-          actions: [
-            // ปุ่ม OK ใน dialog
-            TextButton(
-              child: const Text('OK'),
-              onPressed: () {
-                // ปิด dialog
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
         );
       },
     );
